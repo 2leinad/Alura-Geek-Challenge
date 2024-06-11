@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik Pixels' />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+</head>
+<body>
+    <header>
+        <h1 class="encabezado"> <img src="../imagenes/geek_pix.png" class="img-encabezado" alt="Imagen geek en banner"/> Alura Geek</h1>
+    </header>
+
+    <main class="container">
+        <section>
+        <h2>Mis Productos</h2>
+        <div product class="product-container">
+            
+        </div>
+        </section>
+
+        <section>
+        <h2>Agregar Productos</h2>
+        <form class="product-form" data-form>
+            <input class="controls" form-name placeholder="nombre" type="text">
+            <input class="controls" form-price placeholder="precio" type="number">
+            <input class="controls" form-image placeholder="imagen" type="url">
+
+            <div class="button-container">
+                <button type="submit" class="button-submit" id="button">Enviar</button>
+                <button type="reset" class="button-reset" id="button">Reset</button>
+            </div>
+        </form>
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <section class="pie-pagina-contacto">
+            <h2 class="pie-pagina-titulo">Contacto</h2>
+            <ul class="pie-pagina-lista">
+              <li>
+                <a href="#" class="pie-pagina-link">dani_df@hotmail.com</a>
+              </li>
+              <li>
+                <a href="#" class="pie-pagina-link">@danielefernandezv</a>
+              </li>
+            </ul>
+          </section>
+    </footer>
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>

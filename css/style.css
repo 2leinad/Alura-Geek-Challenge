@@ -1,0 +1,105 @@
+body{
+    font-family: 'Rubik Pixels';font-size: 20px;
+    position: relative;
+    padding-bottom: 8em;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.img-encabezado{
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    text-align: center;
+}
+
+.card-container--info{
+    color: white;
+}
+
+.card{
+    background: #8C0375;
+    width: calc(100%/4);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 3px solid #000000;
+}
+
+.delete-button{
+    text-decoration: none;
+    margin: 35px;
+    padding: 5px;
+}
+
+.deleteImage{
+    width: 20px;
+}
+
+.product-form{
+    width: 100%;
+    padding: 30px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 15px;
+}
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.button-container p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-container a:hover{
+    text-decoration: underline;
+}
+
+.button-submit{
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.button-reset{
+    width: 100%;
+    background-color: white;
+    border-color: #1f53c5;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+footer {
+    color: white;
+    background-color: #C004D9;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1em 0;
+    margin-top: auto;
+}
